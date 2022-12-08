@@ -1,6 +1,8 @@
 # Machine_Learning_Models
 
 
-<div style="display: flex; justify-content: center;">
-<img src="/images/python.png" alt="python">
-</div>
+<p align="center">
+  <img width="460" height="300" src="/images/python.png">
+</p>
+
+
