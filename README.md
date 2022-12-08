@@ -1,11 +1,7 @@
 # Machine Learning Models
 
-{::comment}
-This is a picture
-{:/comment}
-
+<!-- Machine Learning AI image -->
 <p align="center">
   <img  src="/images/machine-learning-examples-applications.png">
 </p>
-
 
