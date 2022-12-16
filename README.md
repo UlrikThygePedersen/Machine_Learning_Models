@@ -2,6 +2,5 @@
 
 <!-- Machine Learning AI image -->
 <p align="center">
-  <img  src="/images/machine-learning-examples-applications.png">
+  <img  src="/images/randomforest.png">
 </p>
-
