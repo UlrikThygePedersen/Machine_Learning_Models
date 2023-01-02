@@ -1,0 +1,77 @@
+{
+    "new_features": [
+        {
+            "feature1": "Q",
+            "feature2": "R",
+            "operation": "ratio",
+            "score": 0.7011127005
+        },
+        {
+            "feature1": "S",
+            "feature2": "L",
+            "operation": "ratio",
+            "score": 0.7053581099
+        },
+        {
+            "feature1": "R",
+            "feature2": "Q",
+            "operation": "ratio",
+            "score": 0.7065581123
+        },
+        {
+            "feature1": "L",
+            "feature2": "S",
+            "operation": "ratio",
+            "score": 0.7224938121
+        },
+        {
+            "feature1": "Q",
+            "feature2": "L",
+            "operation": "ratio",
+            "score": 0.7236357074
+        },
+        {
+            "feature1": "R",
+            "feature2": "S",
+            "operation": "diff",
+            "score": 0.7244763439
+        },
+        {
+            "feature1": "Q",
+            "feature2": "A",
+            "operation": "ratio",
+            "score": 0.725248376
+        },
+        {
+            "feature1": "A",
+            "feature2": "N",
+            "operation": "ratio",
+            "score": 0.726687616
+        },
+        {
+            "feature1": "N",
+            "feature2": "A",
+            "operation": "ratio",
+            "score": 0.7287971992
+        },
+        {
+            "feature1": "L",
+            "feature2": "Q",
+            "operation": "ratio",
+            "score": 0.7294260795
+        }
+    ],
+    "new_columns": [
+        "Q_ratio_R",
+        "S_ratio_L",
+        "R_ratio_Q",
+        "L_ratio_S",
+        "Q_ratio_L",
+        "R_diff_S",
+        "Q_ratio_A",
+        "A_ratio_N",
+        "N_ratio_A",
+        "L_ratio_Q"
+    ],
+    "ml_task": "regression"
+}

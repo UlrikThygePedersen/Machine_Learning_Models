@@ -1,0 +1,721 @@
+{
+    "uid": "6db3fe5c-9bce-440b-9924-91dcd8dbda73",
+    "name": "29_CatBoost_GoldenFeatures_Stacked",
+    "preprocessing": [
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Q",
+                        "feature2": "R",
+                        "operation": "ratio",
+                        "score": 0.7011127005
+                    },
+                    {
+                        "feature1": "S",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7053581099
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7065581123
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "S",
+                        "operation": "ratio",
+                        "score": 0.7224938121
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7236357074
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "S",
+                        "operation": "diff",
+                        "score": 0.7244763439
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.725248376
+                    },
+                    {
+                        "feature1": "A",
+                        "feature2": "N",
+                        "operation": "ratio",
+                        "score": 0.726687616
+                    },
+                    {
+                        "feature1": "N",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.7287971992
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7294260795
+                    }
+                ],
+                "new_columns": [
+                    "Q_ratio_R",
+                    "S_ratio_L",
+                    "R_ratio_Q",
+                    "L_ratio_S",
+                    "Q_ratio_L",
+                    "R_diff_S",
+                    "Q_ratio_A",
+                    "A_ratio_N",
+                    "N_ratio_A",
+                    "L_ratio_Q"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    12.04050892374558
+                ],
+                "mean": [
+                    63.98335997442456
+                ],
+                "var": [
+                    144.97385514279694
+                ],
+                "n_samples_seen": 6256,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Q",
+                        "feature2": "R",
+                        "operation": "ratio",
+                        "score": 0.7011127005
+                    },
+                    {
+                        "feature1": "S",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7053581099
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7065581123
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "S",
+                        "operation": "ratio",
+                        "score": 0.7224938121
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7236357074
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "S",
+                        "operation": "diff",
+                        "score": 0.7244763439
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.725248376
+                    },
+                    {
+                        "feature1": "A",
+                        "feature2": "N",
+                        "operation": "ratio",
+                        "score": 0.726687616
+                    },
+                    {
+                        "feature1": "N",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.7287971992
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7294260795
+                    }
+                ],
+                "new_columns": [
+                    "Q_ratio_R",
+                    "S_ratio_L",
+                    "R_ratio_Q",
+                    "L_ratio_S",
+                    "Q_ratio_L",
+                    "R_diff_S",
+                    "Q_ratio_A",
+                    "A_ratio_N",
+                    "N_ratio_A",
+                    "L_ratio_Q"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    11.937959288471903
+                ],
+                "mean": [
+                    63.93244366309734
+                ],
+                "var": [
+                    142.5148719732126
+                ],
+                "n_samples_seen": 6257,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Q",
+                        "feature2": "R",
+                        "operation": "ratio",
+                        "score": 0.7011127005
+                    },
+                    {
+                        "feature1": "S",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7053581099
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7065581123
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "S",
+                        "operation": "ratio",
+                        "score": 0.7224938121
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7236357074
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "S",
+                        "operation": "diff",
+                        "score": 0.7244763439
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.725248376
+                    },
+                    {
+                        "feature1": "A",
+                        "feature2": "N",
+                        "operation": "ratio",
+                        "score": 0.726687616
+                    },
+                    {
+                        "feature1": "N",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.7287971992
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7294260795
+                    }
+                ],
+                "new_columns": [
+                    "Q_ratio_R",
+                    "S_ratio_L",
+                    "R_ratio_Q",
+                    "L_ratio_S",
+                    "Q_ratio_L",
+                    "R_diff_S",
+                    "Q_ratio_A",
+                    "A_ratio_N",
+                    "N_ratio_A",
+                    "L_ratio_Q"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    11.884695049800278
+                ],
+                "mean": [
+                    63.85678440147036
+                ],
+                "var": [
+                    141.24597642674723
+                ],
+                "n_samples_seen": 6257,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Q",
+                        "feature2": "R",
+                        "operation": "ratio",
+                        "score": 0.7011127005
+                    },
+                    {
+                        "feature1": "S",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7053581099
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7065581123
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "S",
+                        "operation": "ratio",
+                        "score": 0.7224938121
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7236357074
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "S",
+                        "operation": "diff",
+                        "score": 0.7244763439
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.725248376
+                    },
+                    {
+                        "feature1": "A",
+                        "feature2": "N",
+                        "operation": "ratio",
+                        "score": 0.726687616
+                    },
+                    {
+                        "feature1": "N",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.7287971992
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7294260795
+                    }
+                ],
+                "new_columns": [
+                    "Q_ratio_R",
+                    "S_ratio_L",
+                    "R_ratio_Q",
+                    "L_ratio_S",
+                    "Q_ratio_L",
+                    "R_diff_S",
+                    "Q_ratio_A",
+                    "A_ratio_N",
+                    "N_ratio_A",
+                    "L_ratio_Q"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    11.955411782786827
+                ],
+                "mean": [
+                    63.886303340258905
+                ],
+                "var": [
+                    142.93187089599812
+                ],
+                "n_samples_seen": 6257,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        },
+        {
+            "golden_features": {
+                "new_features": [
+                    {
+                        "feature1": "Q",
+                        "feature2": "R",
+                        "operation": "ratio",
+                        "score": 0.7011127005
+                    },
+                    {
+                        "feature1": "S",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7053581099
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7065581123
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "S",
+                        "operation": "ratio",
+                        "score": 0.7224938121
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "L",
+                        "operation": "ratio",
+                        "score": 0.7236357074
+                    },
+                    {
+                        "feature1": "R",
+                        "feature2": "S",
+                        "operation": "diff",
+                        "score": 0.7244763439
+                    },
+                    {
+                        "feature1": "Q",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.725248376
+                    },
+                    {
+                        "feature1": "A",
+                        "feature2": "N",
+                        "operation": "ratio",
+                        "score": 0.726687616
+                    },
+                    {
+                        "feature1": "N",
+                        "feature2": "A",
+                        "operation": "ratio",
+                        "score": 0.7287971992
+                    },
+                    {
+                        "feature1": "L",
+                        "feature2": "Q",
+                        "operation": "ratio",
+                        "score": 0.7294260795
+                    }
+                ],
+                "new_columns": [
+                    "Q_ratio_R",
+                    "S_ratio_L",
+                    "R_ratio_Q",
+                    "L_ratio_S",
+                    "Q_ratio_L",
+                    "R_diff_S",
+                    "Q_ratio_A",
+                    "A_ratio_N",
+                    "N_ratio_A",
+                    "L_ratio_Q"
+                ],
+                "ml_task": "regression"
+            },
+            "scale_y": {
+                "scale": [
+                    11.996236670005462
+                ],
+                "mean": [
+                    63.88881252996644
+                ],
+                "var": [
+                    143.90969424278373
+                ],
+                "n_samples_seen": 6257,
+                "n_features_in": 1,
+                "columns": [
+                    "target"
+                ],
+                "scale_method": "scale_normal"
+            },
+            "ml_task": "regression",
+            "params": {
+                "columns_preprocessing": {},
+                "target_preprocessing": [
+                    "na_exclude",
+                    "scale_normal"
+                ],
+                "ml_task": "regression",
+                "golden_features": {
+                    "results_path": "AutoML_1",
+                    "ml_task": "regression",
+                    "n_jobs": -1
+                }
+            }
+        }
+    ],
+    "learners": [
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "f3993a6c-fd95-4c8c-93c6-092e3fdec99b",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 43,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_0",
+            "best_ntree_limit": 74
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "a3955afd-2091-408f-a6fb-437f54f47a19",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 43,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_1",
+            "best_ntree_limit": 77
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "2dcac630-92e3-4fc8-9258-7118e5cb26a4",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 43,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_2",
+            "best_ntree_limit": 56
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "b50317ad-2089-4975-bac6-9ea720b89caa",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 43,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_3",
+            "best_ntree_limit": 70
+        },
+        {
+            "library_version": "1.1.1",
+            "algorithm_name": "CatBoost",
+            "algorithm_short_name": "CatBoost",
+            "uid": "754248fb-4dc0-4b21-b0b1-22c04f87206e",
+            "params": {
+                "model_type": "CatBoost",
+                "ml_task": "regression",
+                "n_jobs": -1,
+                "seed": 43,
+                "learning_rate": 0.1,
+                "depth": 7,
+                "rsm": 0.8,
+                "loss_function": "RMSE",
+                "eval_metric": "RMSE",
+                "explain_level": 0
+            },
+            "name": "learner_fold_4",
+            "best_ntree_limit": 56
+        }
+    ],
+    "params": {
+        "additional": {
+            "max_rounds": 10000,
+            "early_stopping_rounds": 50,
+            "max_rows_limit": null,
+            "max_cols_limit": null
+        },
+        "preprocessing": {
+            "columns_preprocessing": {},
+            "target_preprocessing": [
+                "na_exclude",
+                "scale_normal"
+            ],
+            "ml_task": "regression",
+            "golden_features": {
+                "results_path": "AutoML_1",
+                "ml_task": "regression",
+                "n_jobs": -1
+            }
+        },
+        "validation_strategy": {
+            "validation_type": "kfold",
+            "shuffle": true,
+            "X_path": "AutoML_1\\X_stacked.data",
+            "y_path": "AutoML_1\\y.data",
+            "results_path": "AutoML_1",
+            "k_folds": 5
+        },
+        "learner": {
+            "model_type": "CatBoost",
+            "ml_task": "regression",
+            "n_jobs": -1,
+            "seed": 43,
+            "learning_rate": 0.1,
+            "depth": 7,
+            "rsm": 0.8,
+            "loss_function": "RMSE",
+            "eval_metric": "RMSE",
+            "explain_level": 0
+        },
+        "automl_random_state": 42,
+        "ml_task": "regression",
+        "explain_level": 0,
+        "name": "29_CatBoost_GoldenFeatures_Stacked",
+        "status": "initialized",
+        "final_loss": null,
+        "train_time": null,
+        "data_type": "original_golden_features_stacked",
+        "max_time_for_learner": 60,
+        "is_stacked": true
+    },
+    "saved": [
+        "29_CatBoost_GoldenFeatures_Stacked\\learner_fold_0.catboost",
+        "29_CatBoost_GoldenFeatures_Stacked\\learner_fold_1.catboost",
+        "29_CatBoost_GoldenFeatures_Stacked\\learner_fold_2.catboost",
+        "29_CatBoost_GoldenFeatures_Stacked\\learner_fold_3.catboost",
+        "29_CatBoost_GoldenFeatures_Stacked\\learner_fold_4.catboost"
+    ],
+    "predictions_fname": "29_CatBoost_GoldenFeatures_Stacked\\predictions_out_of_folds.csv",
+    "metric_name": "rmse",
+    "final_loss": 6.430475048787125,
+    "train_time": 12.45738434791565,
+    "is_stacked": true
+}
